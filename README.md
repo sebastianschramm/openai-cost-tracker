@@ -6,6 +6,14 @@ called "traces_<\datetime>.log".
 
 ## Installation
 
+### Install from PYPI
+
+```bash
+pip install openai-request-tracker
+```
+
+### Install from source
+
 Install with poetry:
 
 ```bash
