@@ -1,5 +1,9 @@
 # openai-cost-tracker
 
+[![PyPI version](https://badge.fury.io/py/openai-request-tracker.svg)](https://badge.fury.io/py/openai-request-tracker)
+[![Build Status](https://github.com/sebastianschramm/openai-cost-tracker/actions/workflows/python-publish.yml/badge.svg)](https://github.com/sebastianschramm/openai-cost-tracker/actions)
+[![GitHub](https://img.shields.io/badge/source-GitHub-blue)](https://github.com/sebastianschramm/openai-cost-tracker)
+
 Cost tracker that logs OpenAI requests using opentelemetry. Once enabled, it will log every request that
 is being made via the openai python client to a file in the execution directory. The log file is
 called "traces_<\datetime>.log".
@@ -11,6 +15,8 @@ called "traces_<\datetime>.log".
 ```bash
 pip install openai-request-tracker
 ```
+
+Please note the difference between pypi package name and github repository name.
 
 ### Install from source
 
