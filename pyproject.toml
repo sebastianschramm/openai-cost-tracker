@@ -4,6 +4,12 @@ version = "0.1.0"
 description = "OpenAI cost tracker that logs OpenAI requests using opentelemetry"
 authors = ["Sebastian Schramm <schrammsm@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/sebastianschramm/openai-cost-tracker"
+homepage = "https://github.com/sebastianschramm/openai-cost-tracker"
+
+[tool.poetry.urls]
+Bug Tracker = "https://github.com/sebastianschramm/openai-cost-tracker/issues"
+Releases = "https://github.com/sebastianschramm/openai-cost-tracker/releases"
 
 packages = [
     { include = "cost_tracker" },
