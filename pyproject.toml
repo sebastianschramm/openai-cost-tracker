@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "openai-cost-tracker"
+name = "openai-request-tracker"
 version = "0.1.0"
 description = "OpenAI cost tracker that logs OpenAI requests using opentelemetry"
 authors = ["Sebastian Schramm <schrammsm@gmail.com>"]
