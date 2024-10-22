@@ -28,4 +28,5 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
+track-costs = "cost_tracker.cli_tracker:track_costs"
 display-costs = "cost_tracker.tracker:display_costs"

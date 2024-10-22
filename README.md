@@ -22,6 +22,35 @@ pip install .
 
 ### Record requests
 
+#### CLI wrapper
+
+The command **track-costs** is a wrapper that initializes the tracker and then runs the given CLI command.
+
+```bash
+track-costs <your usual command>
+```
+
+For example, if your are running usually an indexing run with [microsoft/graphRAG](https://github.com/microsoft/graphrag)
+with
+
+```bash
+python -m graphrag.index --root foo
+```
+
+you only need to change it to
+
+```bash
+track-costs graphrag.index --root foo
+```
+
+to record all openai requests in a log file.
+
+Similarly, for calling the graphrag query module you can do
+
+```bash
+track-costs graphrag.query --root foo --method local "My query"
+```
+
 #### In code usage
 
 You can just add a call to cost_tracker.init_tracker() at the very beginning of your script:
